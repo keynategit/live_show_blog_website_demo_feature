@@ -524,3 +524,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   
    }
 }
+
+.order_title{
+    font-size: 3.2rem;
+    width: 80%;
+    font-weight: 700;
+    background: linear-gradient(#9F1AE2, #2937F0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Times New Roman, Times, serif;
+    margin-bottom: 10px;
+    display: inline;
+}
