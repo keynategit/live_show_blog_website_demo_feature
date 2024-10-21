@@ -212,7 +212,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .card {
     width: 100%;
     border-radius: 0.5rem;
-    background-color: #f9cdff;
+    background-color: #fbe3c8;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     border: 1px solid transparent;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -247,7 +247,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   
   .desc {
     margin-top: 0.5rem;
-    color: #3d0238;
+    color: #1c1c1c;
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
@@ -261,7 +261,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-weight: 500;
     align-items: center;
     gap: 0.25rem;
-    background-color: #c600dc;
+    background-color: #a95a00;
     padding: 4px 8px;
     border-radius: 4px;
   }
@@ -526,14 +526,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .order_title{
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     width: 80%;
     font-weight: 700;
     background: linear-gradient(#9F1AE2, #2937F0);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    font-family: Times New Roman, Times, serif;
     margin-bottom: 10px;
-    display: inline;
 }
