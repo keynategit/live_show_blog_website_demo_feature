@@ -31,80 +31,45 @@
 
 <body>
 
-  <nav class="navbar" style="background-color: rgb(28, 28, 28); height: 60px;">
+  <nav class="navbar" style="background-color: rgb(55, 55, 55); height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: fixed; width: 100%; z-index: 999;">
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1" style="color: white; text-align: center; width: 100%;">Keynate</span>
     </div>
   </nav>
+  <div style="height: 60px;">
 
-
-<!-- 
-  <div id="carouselExampleAutoplaying" data-bs-ride="carousel" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
-        aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4"
-        aria-label="Slide 5"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <a href="https://blogger.keynate.com/" target="_blank" rel="noopener noreferrer">
-          <img src="assets/carousel1.png" class="d-block w-100" alt="...">
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="https://news.google.com/publications/CAAqBwgKML3arQwwytq5BA/sections/CAQqEAgAKgcICjC92q0MMMrauQQwgtrrDA"
-          target="_blank" rel="noopener noreferrer">
-          <img src="assets/carousel2.png" class="d-block w-100" alt="...">
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="https://www.heycolleagues.com/web-story/indian-won" target="_blank" rel="noopener noreferrer">
-          <img src="assets/carousel4.png" class="d-block w-100" alt="...">
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="https://pagespeed.web.dev/analysis/https-blogger-keynate-com/jftyxr91s0?form_factor=desktop"
-          target="_blank" rel="noopener noreferrer">
-          <img src="assets/carousel5.png" class="d-block w-100" alt="...">
-        </a>
-      </div>
-
-      <div class="carousel-item">
-        <a href="https://wa.me/918051902909?text=Hello%2C%20Keynate%21%20I%20just%20saw%20your%20amazing%20blog%20website%20development%2C%20and%20I%27m%20super%20excited%20to%20place%20an%20order%20for%20myself!%20Let%27s%20get%20started%21""
-          target="_blank" rel="noopener noreferrer">
-          <img src="assets/carousel3.png" class="d-block w-100" alt="...">
-        </a>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
- -->
 
- <div style="min-height: 60vh; overflow: hidden;">
+
+ <div class="display_blog_main" style="min-height: 60vh; overflow: hidden; margin-top: 30px;">
   <div class="grid"  style="margin-top: 30px; margin-bottom: 50px;">
-    <div class="row" style="display: flex; justify-content: center; align-items: center;">
+    <div class="row" style="display: flex; justify-content: center; align-items: center; position: relative;">
+
+      <div class="col-12 mb-2">
+        <div style="display: flex; justify-content: right; align-items: center; width: 100%; flex-direction: row; padding-right: 20px; white-space: nowrap;">
+          <div style="flex-direction: column;">
+            <div style="flex-direction: row; display: flex;">
+              <div style="background-color: green; padding: 2px; padding-left: 4px; padding-right: 4px; border-radius: 4px; color: white; margin-right: 5px;">
+                <strong>4.9</strong>
+              </div>
+              <div>
+                <i class="fa-solid fa-star" style="color: #FDCC0D;"></i>
+                <i class="fa-solid fa-star" style="color: #FDCC0D;"></i>
+                <i class="fa-solid fa-star" style="color: #FDCC0D;"></i>
+                <i class="fa-solid fa-star" style="color: #FDCC0D;"></i>
+                <i class="fa-solid fa-star" style="color: #FDCC0D;"></i>
+              </div>
+            </div>
+            <div style="display: flex; justify-content: center;">
+              <strong style="color: grey;">&nbsp; (580+ rating)</strong>
+            </div>
+          </div>
+        </div>
+      </div>
      
       <div class="col-12 col-xl-6 col-lg-6 col-md-6 p-2">
-        <!-- Video :- assets/blog.mp4 -->
-        <!-- <video width="100%" height="100%" autoplay muted loop>
-          <source src="https://bhartikumari.s3.ap-south-1.amazonaws.com/1729538176799_88667aa7-abbd-4e97-98b9-7f5ce52a912b.mp4" type="video/mp4">
-        </video> -->
         <img src="./assets/blog_website_demo.png" style="width: 100%; height: auto;" alt="" srcset="">
 
       </div>
@@ -112,7 +77,7 @@
       <div class="col-12 col-xl-6 col-lg-6 col-md-6 p-2" style="display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;">
 
         <h2 class="order_title mb-0">
-           Blog website development
+           Blog Website Development
         </h2>
         <p style="width: 80%; color: rgb(92, 92, 92);">
           Comprehensive Blog Solutions for Growth: SEO-Optimized, Engaging, and Ready for Google News Integration
@@ -141,15 +106,36 @@
  
        </div>
 
+       <div class="col-12" style="margin-top: 100px;">
+          
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+          <h2 style="text-align: center; color: #0082c7;">
+            Trusted by the Giants of the Web
+          </h2>
+        </div>
+
+          <div class="scroll-container">
+            <img src="./assets/ads/5.png" alt="Cinque Terre">
+            <img src="./assets/ads/2.png" alt="Cinque Terre">
+            <img src="./assets/ads/1.png" alt="Cinque Terre">
+            <img src="./assets/ads/4.png" alt="Cinque Terre">
+            <img src="./assets/ads/7.png" alt="Cinque Terre">
+            <img src="./assets/ads/3.png" alt="Cinque Terre">
+            <img src="./assets/ads/6.png" alt="Cinque Terre">
+            <img src="./assets/ads/8.png" alt="Cinque Terre">
+            <img src="./assets/ads/9.png" alt="Cinque Terre">
+            
+          </div>
+       </div>
+
     </div>
   </div>
  </div>
 
 
-  <hr style="width: 100%;">
 
   <div
-    style=" margin-top: 25px; flex-direction: column; display: flex; justify-content: center; align-items: center; text-align: center;">
+    style="  flex-direction: column; display: flex; justify-content: center; align-items: center; text-align: center;">
 
     <h2 style="color: #4133B7;">
       Find Your Blogging Path with Custom Features for Every Creator
@@ -650,7 +636,7 @@
     <div class="grid p-3">
       <div class="row">
 
-        <div class="col-12 col-xl-4 col-lg-3 col-md-6 p-2 seo_card">
+        <div class="col-12 col-xl-3 col-lg-3 col-md-6 p-2 seo_card">
 
           <div class="card">
             <div class="image">
@@ -684,7 +670,7 @@
         </div>
 
 
-        <div class="col-12 col-xl-4 col-lg-3 col-md-6 p-2 seo_card">
+        <div class="col-12 col-xl-3 col-lg-3 col-md-6 p-2 seo_card">
 
           <div class="card">
             <div class="image">
@@ -718,7 +704,7 @@
         </div>
 
 
-        <div class="col-12 col-xl-4 col-lg-3 col-md-6 p-2 seo_card">
+        <div class="col-12 col-xl-3 col-lg-3 col-md-6 p-2 seo_card">
 
           <div class="card">
             <div class="image">
@@ -756,7 +742,7 @@
 
 
 
-        <div class="col-12 col-xl-4 col-lg-3 col-md-6 p-2 seo_card">
+        <div class="col-12 col-xl-3 col-lg-3 col-md-6 p-2 seo_card">
 
           <div class="card">
             <div class="image">
@@ -995,10 +981,10 @@
   <div class="grid desk_app">
     <div class="col-12 col-xl-6 col-lg-8 col-md-8 offset-xl-3 offset-lg-2 offset-md-2 p-2">
       <div
-        style="padding: 10px; min-height: 60vh; padding-top: 8px; padding-bottom: 15px; border-radius: 8px; margin-top: 25px; margin-bottom: 20px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+        style="padding: 10px; min-height: 60vh; padding-top: 8px; padding-bottom: 15px; border-radius: 8px; margin-top: 25px; margin-bottom: 20px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; padding-bottom: 80px;">
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="display: flex; justify-content: center; align-items: center; background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
  background-blend-mode: multiply; padding: 8px; border-radius: 8px; overflow-x: auto; white-space: nowrap;">
-          <li style="margin-left: 5rem;" class="nav-item" role="presentation">
+          <li style="margin-left: 8rem;"  class="nav-item" role="presentation">
             <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
               type="button" role="tab" aria-controls="pills-home" aria-selected="true">
               <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
