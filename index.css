@@ -559,3 +559,77 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     scrollbar-width: none;  /* Firefox */
   }
 }
+
+.customer_card{
+/* From Uiverse.io by wztd */ 
+.card {
+  --background: #fff;
+  --cardShadow: rgba(32,33,37,.1);
+  --cardShadowHover: rgba(32,33,37,.06);
+  --cardShadowActive: rgba(32,33,37,.55);
+  --cardBorder: #dbdce0;
+  --cardBorderActive: #1a73e8;
+  --textColor: #202125;
+  --linkColor: #1967d2;
+  --ratingColor: #faab00;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    --background: #3c4043;
+    --cardShadow: rgba(0,0,0,.28);
+    --cardShadowHover: rgba(0,0,0,.16);
+    --cardShadowActive: rgba(0,0,0,.55);
+    --cardBorder: #202125;
+    --cardBorderActive: #8ab4f8;
+    --textColor: #e9eaee;
+    --linkColor: #8ab4f8;
+  }
+}
+
+.card {
+  width: 100%;
+  height: fit-content;
+  aspect-ratio: 1;
+  background: var(--background);
+  color: var(--textColor);
+  border: 1px solid var(--cardBorder);
+  padding: 25px;
+  box-shadow: 8px 8px 0 var(--cardShadow);
+  transition: box-shadow .5s, transform .5s;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.card:hover {
+  transform: translate(-2px, -4px);
+  box-shadow: 16px 16px 0 var(--cardShadowHover);
+  border: 1px solid var(--cardBorderActive);
+}
+
+.card:active {
+  transform: translate(-2px, -4px);
+  border: 2px solid var(--cardBorderActive);
+  box-shadow: 4px 4px 0 var(--cardShadowActive);
+}
+
+.card > .title,
+.card > .description {
+  margin-bottom: 0.7em;
+  cursor: default;
+  user-select: none;
+}
+
+.card > .title {
+  margin-top: 1.5em;
+  font-weight: bold;
+}
+
+.card > .description {
+  line-height: 1.5em;
+  min-height: 6em;
+}
+
+
+
+}
