@@ -677,3 +677,12 @@ body { margin: 0;
  
 }
 
+.focus{
+  background-image: linear-gradient(to right, #ed8907 0%, #eb0b0b 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 0px;
+  font-size: 2.5rem;
+}
+
