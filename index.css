@@ -544,24 +544,35 @@ body { margin: 0;
     background-color: #f1faff;
     overflow: auto;
     white-space: nowrap;
+    padding: 5px;
+     
   }
   
   .scroll-container img {
     height: 200px;
     width: 200px;
     mix-blend-mode: multiply;
+    border-right: 1px #007fc4;
     
   }
   .scroll-container::-webkit-scrollbar {
     display: none;
   }
   
-  /* Hide scrollbar for IE, Edge and Firefox */
   .scroll-container {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
+
+  
+
+  
+  
 }
+
+
+
+
 
 .customer_card{
 /* From Uiverse.io by wztd */ 
@@ -644,3 +655,25 @@ body { margin: 0;
     background-clip: text;
     margin-top: 0px;
 }
+
+.problem_ul{
+  .collapse{
+    margin-top: 8px;
+    transition: all 0.5s;
+  }
+  li{
+    border: 1px rgb(205, 205, 205) solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  li a{
+    text-decoration: none !important;
+
+  }
+ 
+}
+
